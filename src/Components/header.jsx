@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-function header(){
+function Header(){
   return <>
   <header className="p-3 text-bg-dark">
   <div className="container">
@@ -41,4 +41,4 @@ function header(){
   </>
 }
 
-export default header;
+export default Header;
