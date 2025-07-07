@@ -1,0 +1,26 @@
+.manageCard {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+    border-radius: 0.5rem; /* Slightly rounded corners */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Base shadow */
+    padding: 1rem;
+    margin: 1rem;
+    backdrop-filter: blur(10px); /* Frosted glass blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+    color: #fff; /* Text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    animation: glow 2s ease-in-out infinite; /* Infinite glow animation */
+}
+
+/* Define the glow animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.2); /* Brighter, larger shadow for glow */
+    }
+    100% {
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+}

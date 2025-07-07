@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+
+}
+.innercontainer{
+  display: flex;
+  flex-direction: column;  
+  width: 100%;
+  background-color: antiquewhite;
+}
+.sidebar{
+min-height: 800px;}
+
+.formorcard
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: aqua;
+  /* width: 100%; */
+  
+}
+.formorcardinner{
+  width: 100%;
+  background-color: rgb(135, 46, 46);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 30px;
+  /* height: 600px; */
+  row-gap: 20px;
+}
